@@ -1,0 +1,111 @@
+git is source code management tool or versioning control
+====
+
+confiure git
+=============
+by doing the following on the terminal:
+git config --global user.name "amoatemaa"   
+git config --global user.email "16amoatemaa@gmail.com"
+
+types of files
+==============
+we have the following:
+1. woking area the untracked files
+ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        notes.txt
+        one.java.txt
+        three.java.txt
+        two.java.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+2. staging area the staged files
+$ git add one.java.txt  move a specific file
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   one.java.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        notes.txt
+        three.java.txt
+        two.java.txt
+$ git add .   move all files
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   notes.txt
+        new file:   one.java.txt
+        new file:   three.java.txt
+        new file:   two.java.txt
+
+
+3.local repo by committing the files
+$git commit -m "first commit"
+
+
+git init observations content
+=============================
+1. git init 
+Initialized empty Git repository in C:/Users/Efua Amoatemaa/Desktop/GithubSrc/group5/.git/
+2. git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        notes.txt
+        one.java.txt
+        three.java.txt
+        two.java.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+
+how to move files to staging area
+==================================
+$ git add one.java.txt
+$git add .
+
+how to know the status of the files
+====================================
+$ git status
+
+how to move files to local repository
+======================================
+$git commit -m "first commit"  put a message that's meaningful to the project you're working on for the client
+
+how to see list of commits
+===========================
+$ git log
+commit 5cfd4d0f693544b8899bac2d879ebd60c637c929 (HEAD -> master)================>this shows most recent commit
+Author: Your amoatemaa <16amoatemaa@gmail.com>============================>this shows who committed
+Date:   Sun Jan 9 21:00:32 2022 -0500=============================>this shows the time
+
+    first commit==========>the name of the code
+
+
+Git Ammed
+=========
+
+How to go back to previous version of code
+==========================================
+
+Resource Repository(Github)
+===========================
